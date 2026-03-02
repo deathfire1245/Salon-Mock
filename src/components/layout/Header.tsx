@@ -31,34 +31,43 @@ const Header = () => {
     <header
       className={cn(
         "sticky top-0 z-50 w-full transition-all duration-300",
-        isScrolled ? "bg-background/80 backdrop-blur-lg" : "bg-transparent"
+        isScrolled ? "bg-background/80 backdrop-blur-lg border-b border-border/20" : "bg-transparent"
       )}
     >
       <div className="container mx-auto flex h-20 items-center justify-between px-4">
-        <Link href="/" className="text-2xl font-headline font-bold text-accent">
+        <Link
+          href="/"
+          className={cn(
+            "text-2xl font-headline font-bold transition-colors",
+            isScrolled ? "text-accent" : "text-white"
+          )}
+        >
           EleganceHaven
         </Link>
 
         {/* Desktop Navigation */}
-        <nav className="hidden md:flex">
-          <div className="flex items-center gap-1 rounded-full bg-background/20 p-1.5 shadow-inner backdrop-blur-md border border-white/20">
-            {navLinks.map((link) => (
-              <Link
-                key={link.href}
-                href={link.href}
-                className="rounded-full px-4 py-1.5 text-sm font-medium text-foreground/80 transition-colors hover:bg-background/70"
-              >
-                {link.label}
-              </Link>
-            ))}
-          </div>
+        <nav className="hidden md:flex items-center gap-1">
+          {navLinks.map((link) => (
+            <Link
+              key={link.href}
+              href={link.href}
+              className={cn(
+                "rounded-full px-4 py-2 text-sm font-medium transition-colors",
+                isScrolled
+                  ? "text-foreground/80 hover:bg-black/5 dark:hover:bg-white/5"
+                  : "text-white/90 hover:bg-white/10"
+              )}
+            >
+              {link.label}
+            </Link>
+          ))}
         </nav>
 
         <div className="hidden items-center space-x-4 md:flex">
-          <Link href="#" className="text-foreground/80 transition-colors hover:text-primary">
+          <Link href="#" className={cn("transition-colors", isScrolled ? "text-foreground/80 hover:text-primary" : "text-white/90 hover:text-white")}>
             <Facebook className="h-5 w-5" />
           </Link>
-          <Link href="#" className="text-foreground/80 transition-colors hover:text-primary">
+          <Link href="#" className={cn("transition-colors", isScrolled ? "text-foreground/80 hover:text-primary" : "text-white/90 hover:text-white")}>
             <Instagram className="h-5 w-5" />
           </Link>
         </div>
@@ -67,7 +76,7 @@ const Header = () => {
         <div className="md:hidden">
           <Sheet open={isMobileMenuOpen} onOpenChange={setIsMobileMenuOpen}>
             <SheetTrigger asChild>
-              <Button variant="ghost" size="icon">
+              <Button variant="ghost" size="icon" className={cn(isScrolled ? "text-foreground" : "text-white hover:bg-white/10 hover:text-white")}>
                 <Menu className="h-6 w-6" />
                 <span className="sr-only">Open menu</span>
               </Button>
