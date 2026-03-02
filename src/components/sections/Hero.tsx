@@ -4,17 +4,17 @@ import VerticalBarsNoise from "@/components/ui/vertical-bars";
 
 const Hero = () => {
   return (
-    <section id="home" className="relative h-screen flex items-center justify-center text-white -mt-20">
+    <section id="home" className="relative h-screen flex items-center justify-center -mt-20">
       <VerticalBarsNoise 
-        backgroundColor="#1C171A" 
+        backgroundColor="#FFFFFF" 
         lineColor="#4d3b4a"
         barColor="#C395B6"
       />
       <div className="relative z-10 text-center px-4">
-        <h1 className="text-4xl font-headline tracking-tight text-white sm:text-6xl md:text-7xl">
+        <h1 className="text-4xl font-headline tracking-tight text-accent sm:text-6xl md:text-7xl">
           Pamper Yourself at the Best Salon in Town
         </h1>
-        <p className="mt-6 text-lg max-w-2xl mx-auto text-white/90">
+        <p className="mt-6 text-lg max-w-2xl mx-auto text-foreground/80">
           Experience luxury, comfort, and the latest trends in beauty and wellness.
         </p>
         <div className="mt-10">

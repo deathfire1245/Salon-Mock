@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import Link from "next/link";
 import { Facebook, Instagram, Menu } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -16,16 +16,7 @@ const navLinks = [
 ];
 
 const Header = () => {
-  const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-
-  useEffect(() => {
-    const handleScroll = () => {
-      setIsScrolled(window.scrollY > 10);
-    };
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
 
   return (
     <header
@@ -37,10 +28,7 @@ const Header = () => {
       <div className="container mx-auto flex h-20 items-center justify-between px-4">
         <Link
           href="/"
-          className={cn(
-            "text-2xl font-headline font-bold transition-colors",
-            isScrolled ? "text-accent" : "text-white"
-          )}
+          className="text-2xl font-headline font-bold text-accent transition-colors"
         >
           EleganceHaven
         </Link>
@@ -51,12 +39,7 @@ const Header = () => {
             <Link
               key={link.href}
               href={link.href}
-              className={cn(
-                "rounded-full px-4 py-2 text-sm font-medium transition-colors",
-                isScrolled
-                  ? "text-foreground/80 hover:bg-black/5 dark:hover:bg-white/5"
-                  : "text-white/90 hover:bg-white/10"
-              )}
+              className="rounded-full px-4 py-2 text-sm font-medium text-foreground/80 transition-colors hover:bg-black/5 dark:hover:bg-white/5"
             >
               {link.label}
             </Link>
@@ -64,10 +47,10 @@ const Header = () => {
         </nav>
 
         <div className="hidden items-center space-x-4 md:flex">
-          <Link href="#" className={cn("transition-colors", isScrolled ? "text-foreground/80 hover:text-primary" : "text-white/90 hover:text-white")}>
+          <Link href="#" className="text-foreground/80 transition-colors hover:text-primary">
             <Facebook className="h-5 w-5" />
           </Link>
-          <Link href="#" className={cn("transition-colors", isScrolled ? "text-foreground/80 hover:text-primary" : "text-white/90 hover:text-white")}>
+          <Link href="#" className="text-foreground/80 transition-colors hover:text-primary">
             <Instagram className="h-5 w-5" />
           </Link>
         </div>
@@ -76,7 +59,7 @@ const Header = () => {
         <div className="md:hidden">
           <Sheet open={isMobileMenuOpen} onOpenChange={setIsMobileMenuOpen}>
             <SheetTrigger asChild>
-              <Button variant="ghost" size="icon" className={cn(isScrolled ? "text-foreground" : "text-white hover:bg-white/10 hover:text-white")}>
+              <Button variant="ghost" size="icon" className="text-foreground">
                 <Menu className="h-6 w-6" />
                 <span className="sr-only">Open menu</span>
               </Button>
