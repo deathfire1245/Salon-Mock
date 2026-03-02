@@ -1,7 +1,6 @@
 "use client";
 
-import { useEffect } from "react";
-import { useFormState } from "react-dom";
+import { useEffect, useActionState } from "react";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { z } from "zod";
@@ -34,7 +33,7 @@ const services = ["Haircut & Style", "Hair Coloring", "Manicure & Pedicure", "Fa
 
 const ContactForm = () => {
   const { toast } = useToast();
-  const [state, formAction] = useFormState(handleBookingRequest, null);
+  const [state, formAction] = useActionState(handleBookingRequest, null);
 
   const form = useForm<FormValues>({
     resolver: zodResolver(formSchema),
