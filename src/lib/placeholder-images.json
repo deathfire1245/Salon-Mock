@@ -1,3 +1,58 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "hero-main",
+      "description": "A stylish and modern salon interior.",
+      "imageUrl": "https://images.unsplash.com/photo-1633681926019-03bd9325ec20?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxzYWxvbiUyMGludGVyaW9yfGVufDB8fHx8MTc3MjQyMTI2N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "salon interior"
+    },
+    {
+      "id": "gallery-1",
+      "description": "A woman with a beautiful balayage hairstyle.",
+      "imageUrl": "https://images.unsplash.com/photo-1539025137588-9e6395c9396e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8d29tYW4lMjBoYWlyc3R5bGV8ZW58MHx8fHwxNzcyNDczOTY0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "woman hairstyle"
+    },
+    {
+      "id": "gallery-2",
+      "description": "Close-up of a professional manicure.",
+      "imageUrl": "https://images.unsplash.com/photo-1659391542239-9648f307c0b1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtYW5pY3VyZSUyMG5haWxzfGVufDB8fHx8MTc3MjM3NDU3MHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "manicure nails"
+    },
+    {
+      "id": "gallery-3",
+      "description": "A stylist blow-drying a client's hair.",
+      "imageUrl": "https://images.unsplash.com/photo-1580618672591-eb180b1a973f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxoYWlyJTIwc3R5bGluZ3xlbnwwfHx8fDE3NzI0NTkxOTd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "hair styling"
+    },
+    {
+      "id": "gallery-4",
+      "description": "A woman enjoying a relaxing facial treatment.",
+      "imageUrl": "https://images.unsplash.com/photo-1713085085470-fba013d67e65?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxmYWNpYWwlMjB0cmVhdG1lbnR8ZW58MHx8fHwxNzcyNDE3MTczfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "facial treatment"
+    },
+    {
+      "id": "gallery-5",
+      "description": "Elegant updos for a special occasion.",
+      "imageUrl": "https://images.unsplash.com/photo-1695527081848-1e46c06e6458?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8aGFpciUyMHVwZG98ZW58MHx8fHwxNzcyNDczOTY0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "hair updo"
+    },
+    {
+      "id": "gallery-6",
+      "description": "A display of premium hair care products.",
+      "imageUrl": "https://images.unsplash.com/photo-1646194942605-64c0415ae600?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxoYWlyJTIwcHJvZHVjdHN8ZW58MHx8fHwxNzcyNDczOTY0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "hair products"
+    },
+    {
+      "id": "gallery-7",
+      "description": "A client with a vibrant hair color.",
+      "imageUrl": "https://images.unsplash.com/photo-1765560217616-4150496cdb12?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHx2aWJyYW50JTIwaGFpcnxlbnwwfHx8fDE3NzI0NzM5NjV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "vibrant hair"
+    },
+    {
+      "id": "gallery-8",
+      "description": "The serene and welcoming reception area of the salon.",
+      "imageUrl": "https://images.unsplash.com/photo-1658492055212-e1acbccfca5a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxzYWxvbiUyMHJlY2VwdGlvbnxlbnwwfHx8fDE3NzI0NTM0NTB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "salon reception"
+    }
+  ]
 }
