@@ -7,7 +7,7 @@ const Hero = () => {
   const heroImage = PlaceHolderImages.find(img => img.id === "hero-main");
 
   return (
-    <section id="home" className="relative h-[80vh] min-h-[500px] flex items-center justify-center text-white">
+    <section id="home" className="relative h-screen flex items-center justify-center text-white -mt-20">
       {heroImage && (
         <Image
           src={heroImage.imageUrl}
