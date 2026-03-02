@@ -31,7 +31,7 @@ const Header = () => {
     <header
       className={cn(
         "sticky top-0 z-50 w-full transition-all duration-300",
-        isScrolled ? "bg-background/80 backdrop-blur-sm shadow-md" : "bg-transparent"
+        isScrolled ? "bg-background/80 backdrop-blur-lg" : "bg-transparent"
       )}
     >
       <div className="container mx-auto flex h-20 items-center justify-between px-4">
@@ -40,16 +40,18 @@ const Header = () => {
         </Link>
 
         {/* Desktop Navigation */}
-        <nav className="hidden items-center space-x-6 md:flex">
-          {navLinks.map((link) => (
-            <Link
-              key={link.href}
-              href={link.href}
-              className="font-medium text-foreground/80 transition-colors hover:text-primary"
-            >
-              {link.label}
-            </Link>
-          ))}
+        <nav className="hidden md:flex">
+          <div className="flex items-center gap-1 rounded-full bg-background/20 p-1.5 shadow-inner backdrop-blur-md border border-white/20">
+            {navLinks.map((link) => (
+              <Link
+                key={link.href}
+                href={link.href}
+                className="rounded-full px-4 py-1.5 text-sm font-medium text-foreground/80 transition-colors hover:bg-background/70"
+              >
+                {link.label}
+              </Link>
+            ))}
+          </div>
         </nav>
 
         <div className="hidden items-center space-x-4 md:flex">
