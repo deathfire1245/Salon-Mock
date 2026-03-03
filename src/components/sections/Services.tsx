@@ -1,5 +1,4 @@
 import { Card, CardContent, CardHeader, CardTitle, CardFooter } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
 import { Scissors, Palette, Sparkles, Hand, Smile, Crown, Waves, Gem, Wind } from "lucide-react";
 import Link from "next/link";
 
@@ -76,9 +75,10 @@ const Services = () => {
                 <p className="text-muted-foreground">{service.description}</p>
               </CardContent>
               <CardFooter className="justify-center pt-4">
-                <Button asChild>
-                  <Link href="/book-appointment">Book Appointment</Link>
-                </Button>
+                <Link href="/book-appointment" className="relative inline-flex items-center justify-center px-6 py-2 overflow-hidden font-medium transition-all bg-background border border-primary text-primary rounded-md group">
+                    <span className="w-48 h-48 rounded rotate-[-40deg] bg-primary absolute bottom-0 left-0 -translate-x-full ease-out duration-500 transition-all translate-y-full mb-9 ml-9 group-hover:ml-0 group-hover:mb-32 group-hover:translate-x-0"></span>
+                    <span className="relative w-full text-center transition-colors duration-300 ease-in-out group-hover:text-primary-foreground">Book Appointment</span>
+                </Link>
               </CardFooter>
             </Card>
           ))}
