@@ -8,37 +8,37 @@
     },
     {
       "id": "service-haircut",
-      "description": "Expert stylist crafting a perfect haircut.",
+      "description": "Modern cuts, elegant updos, and perfect blowouts to match your style.",
       "imageUrl": "https://images.unsplash.com/photo-1597907576878-12de9fb6c5e9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxoYWlyJTIwc3R5bGlzdCUyMHNhbG9ufGVufDB8fHx8MTc4ODU5NzUzNHww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "hair stylist"
     },
     {
       "id": "service-coloring",
-      "description": "Vibrant and professional hair coloring in progress.",
+      "description": "From subtle highlights to bold new colors, our experts create stunning results.",
       "imageUrl": "https://images.unsplash.com/photo-1502450379410-a20b224151b7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxoYWlyJTIwZHllJTIwcHJvY2Vzc3xlbnwwfHx8fDE3ODg1OTc3MDd8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "hair coloring"
     },
     {
       "id": "service-keratin",
-      "description": "A head of smooth, shiny hair after a keratin treatment.",
+      "description": "Tame frizz and get smooth, shiny hair with our premium keratin treatments.",
       "imageUrl": "https://images.unsplash.com/photo-1590225479893-6140889a7f39?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxoYWlyJTIwYmxvd291dHxlbnwwfHx8fDE3ODg1OTc3ODZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "smooth hair"
     },
     {
       "id": "service-spa",
-      "description": "A rejuvenating hair spa treatment.",
-      "imageUrl": "https://images.unsplash.com/photo-1621910793397-a7230d3e2a35?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxoYWlyJTIwbWFzayUyMGFwcGxpY2F0aW9ufGVufDB8fHx8fDE3ODg1OTc3NDl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "description": "A rejuvenating spa experience for your hair to restore its health and shine.",
+      "imageUrl": "https://images.unsplash.com/photo-1571454870646-86bf1e5b25ae?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxoYWlyJTIwc3BhfGVufDB8fHx8MTc3MjUzMjQ3Mnww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "hair spa"
     },
     {
       "id": "service-bridal",
-      "description": "A stunning bridal hairstyle.",
+      "description": "Get ready for your big day with our bespoke bridal and special occasion styling.",
       "imageUrl": "https://images.unsplash.com/photo-1512496015851-a90fb38ba796?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxtYWtldXB8ZW58MHx8fHwxNzcyNTMyMzQ5fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "bridal hairstyle"
     },
     {
       "id": "service-extensions",
-      "description": "Long, flowing hair extensions.",
+      "description": "Add volume and length to your hair with our high-quality, natural-looking extensions.",
       "imageUrl": "https://images.unsplash.com/photo-1634449571017-5fecfd26ad76?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxoYWlyJTIwZXh0ZW5zaW9uc3xlbnwwfHx8fDE3NzI1MzIyMjd8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "hair extensions"
     },
