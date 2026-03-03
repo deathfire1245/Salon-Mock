@@ -39,7 +39,7 @@
     {
       "id": "service-extensions",
       "description": "Long, flowing hair extensions.",
-      "imageUrl": "https://images.unsplash.com/photo-1616013919816-72419406540c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxoYWlyJTIwZXh0ZW5zaW9uc3xlbnwwfHx8fDE3ODg3NTQwMDV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1634449571017-5fecfd26ad76?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxoYWlyJTIwZXh0ZW5zaW9uc3xlbnwwfHx8fDE3NzI1MzIyMjd8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "hair extensions"
     },
     {
@@ -50,13 +50,13 @@
     },
     {
       "id": "service-nails",
-      "description": "A luxurious manicure service.",
+      "description": "Luxurious manicures and pedicures to leave your hands and feet feeling rejuvenated.",
       "imageUrl": "https://images.unsplash.com/photo-1632345031435-8727f6897d53?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxuYWlsJTIwY2FyZXxlbnwwfHx8fDE3NzI1MzE5NzF8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "nail care"
     },
     {
       "id": "service-skincare",
-      "description": "A customized facial skincare treatment.",
+      "description": "Customized facial treatments to nourish your skin and reveal a radiant glow.",
       "imageUrl": "https://images.unsplash.com/photo-1643684391140-c5056cfd3436?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxmYWNpYWx8ZW58MHx8fHwxNzcyNTMxODIwfDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "facial"
     }
