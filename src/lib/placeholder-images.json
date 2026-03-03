@@ -59,6 +59,24 @@
       "description": "Relaxing skincare treatment session.",
       "imageUrl": "https://images.unsplash.com/photo-1512290923902-8a9f31c23675?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxza2luY2FyZSUyMHRyZWF0bWVudHxlbnwwfHx8fDE3ODg1OTgzMDd8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "skincare treatment"
+    },
+    {
+      "id": "gallery-10",
+      "description": "A relaxing pedicure session in progress.",
+      "imageUrl": "https://images.unsplash.com/photo-1618011213224-dd9d4d29c362?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxyZWxheGluZyUyMHBlZGljdXJlfGVufDB8fHx8MTc4ODU5ODQwN3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "relaxing pedicure"
+    },
+    {
+      "id": "gallery-11",
+      "description": "Personalized consultation with our expert stylist.",
+      "imageUrl": "https://images.unsplash.com/photo-1559599238-3087932344a0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzdHlsaXN0JTIwY29uc3VsdGF0aW9ufGVufDB8fHx8MTc4ODU5ODQzOXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "stylist consultation"
+    },
+    {
+      "id": "gallery-12",
+      "description": "A display of our premium hair care products.",
+      "imageUrl": "https://images.unsplash.com/photo-1590305072973-db37f6110034?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzYWxvbiUyMHByb2R1Y3RzJTIwZGlzcGxheXxlbnwwfHx8fDE3ODg1OTg0NzB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "salon products"
     }
   ]
 }
