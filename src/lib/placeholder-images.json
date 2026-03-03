@@ -7,78 +7,6 @@
       "imageHint": "salon interior"
     },
     {
-      "id": "gallery-1",
-      "description": "Expert stylist crafting a perfect look.",
-      "imageUrl": "https://images.unsplash.com/photo-1597907576878-12de9fb6c5e9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxoYWlyJTIwc3R5bGlzdCUyMHNhbG9ufGVufDB8fHx8MTc4ODU5NzUzNHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "hair stylist"
-    },
-    {
-      "id": "gallery-2",
-      "description": "Flawless manicure with a glossy finish.",
-      "imageUrl": "https://images.unsplash.com/photo-1604654894610-df62313d1013?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBtYW5pY3VyZXxlbnwwfHx8fDE3ODg1OTc2MTB8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "flawless manicure"
-    },
-    {
-      "id": "gallery-3",
-      "description": "A relaxing and luxurious salon atmosphere.",
-      "imageUrl": "https://images.unsplash.com/photo-1555818916-4c45a76495a6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxsdXh1cnklMjBzYWxvbiUyMGludGVyaW9yfGVufDB8fHx8MTc4ODU5NzY1NHww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "luxury salon"
-    },
-    {
-      "id": "gallery-4",
-      "description": "Vibrant and professional hair coloring.",
-      "imageUrl": "https://images.unsplash.com/photo-1502450379410-a20b224151b7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxoYWlyJTIwZHllJTIwcHJvY2Vzc3xlbnwwfHx8fDE3ODg1OTc3MDd8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "hair coloring"
-    },
-    {
-      "id": "gallery-5",
-      "description": "Nourishing hair treatment for ultimate shine.",
-      "imageUrl": "https://images.unsplash.com/photo-1621910793397-a7230d3e2a35?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxoYWlyJTIwbWFzayUyMGFwcGxpY2F0aW9ufGVufDB8fHx8fDE3ODg1OTc3NDl8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "hair treatment"
-    },
-    {
-      "id": "gallery-6",
-      "description": "A perfect blowout for a glamorous finish.",
-      "imageUrl": "https://images.unsplash.com/photo-1590225479893-6140889a7f39?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxoYWlyJTIwYmxvd291dHxlbnwwfHx8fDE3ODg1OTc3ODZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "perfect blowout"
-    },
-    {
-      "id": "gallery-7",
-      "description": "Stunning bridal hairstyle for a special day.",
-      "imageUrl": "https://images.unsplash.com/photo-1595692484323-745f6fe42b0a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxicmlkYWwlMjBoYWlyc3R5bGV8ZW58MHx8fHwxNzg4NTk4MjM3fDA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "bridal hairstyle"
-    },
-    {
-      "id": "gallery-8",
-      "description": "Elegant updo, perfect for any formal occasion.",
-      "imageUrl": "https://images.unsplash.com/photo-1633327633215-6295b282c208?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxlbGVnYW50JTIwdXBkb3xlbnwwfHx8fDE3ODg1OTgyNzB8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "elegant updo"
-    },
-    {
-      "id": "gallery-9",
-      "description": "Relaxing skincare treatment session.",
-      "imageUrl": "https://images.unsplash.com/photo-1512290923902-8a9f31c23675?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxza2luY2FyZSUyMHRyZWF0bWVudHxlbnwwfHx8fDE3ODg1OTgzMDd8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "skincare treatment"
-    },
-    {
-      "id": "gallery-10",
-      "description": "A relaxing pedicure session in progress.",
-      "imageUrl": "https://images.unsplash.com/photo-1618011213224-dd9d4d29c362?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxyZWxheGluZyUyMHBlZGljdXJlfGVufDB8fHx8MTc4ODU5ODQwN3ww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "relaxing pedicure"
-    },
-    {
-      "id": "gallery-11",
-      "description": "Personalized consultation with our expert stylist.",
-      "imageUrl": "https://images.unsplash.com/photo-1559599238-3087932344a0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzdHlsaXN0JTIwY29uc3VsdGF0aW9ufGVufDB8fHx8MTc4ODU5ODQzOXww&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "stylist consultation"
-    },
-    {
-      "id": "gallery-12",
-      "description": "A display of our premium hair care products.",
-      "imageUrl": "https://images.unsplash.com/photo-1590305072973-db37f6110034?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzYWxvbiUyMHByb2R1Y3RzJTIwZGlzcGxheXxlbnwwfHx8fDE3ODg1OTg0NzB8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "salon products"
-    },
-    {
       "id": "service-haircut",
       "description": "Expert stylist crafting a perfect haircut.",
       "imageUrl": "https://images.unsplash.com/photo-1597907576878-12de9fb6c5e9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxoYWlyJTIwc3R5bGlzdCUyMHNhbG9ufGVufDB8fHx8MTc4ODU5NzUzNHww&ixlib=rb-4.1.0&q=80&w=1080",
@@ -117,7 +45,7 @@
     {
       "id": "service-blowdry",
       "description": "A perfect, professional blowout.",
-      "imageUrl": "https://images.unsplash.com/photo-1590225479893-6140889a7f39?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxoYWlyJTIwYmxvd291dHxlbnwwfHx8fDE3ODg1OTc3ODZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1580618672591-eb180b1a973f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxibG93JTIwZHJ5fGVufDB8fHx8MTc3MjUzMjA2NHww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "hair blowout"
     },
     {
