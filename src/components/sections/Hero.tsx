@@ -1,11 +1,13 @@
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
-import { FallingPattern } from "@/components/ui/falling-pattern";
+import Silk from "@/components/ui/Silk";
 
 const Hero = () => {
   return (
     <section id="home" className="relative h-screen flex items-center justify-center -mt-20 overflow-hidden">
-      <FallingPattern className="absolute inset-0 w-full h-full p-0" />
+      <div className="absolute inset-0 w-full h-full">
+        <Silk color="#C7B8D6" />
+      </div>
       <div className="relative z-10 text-center px-4">
         <h1 className="text-4xl font-headline tracking-tight text-accent sm:text-6xl md:text-7xl">
           Pamper Yourself at the Best Salon in Town
