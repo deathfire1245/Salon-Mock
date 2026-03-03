@@ -56,7 +56,7 @@ const Hero = () => {
           className="mt-10"
         >
           <Button asChild size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground font-bold text-lg py-7 px-10 transition-transform hover:scale-105">
-            <Link href="/">Book an Appointment</Link>
+            <Link href="/book-appointment">Book an Appointment</Link>
           </Button>
         </motion.div>
       </div>

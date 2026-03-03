@@ -1,10 +1,12 @@
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Scissors, Palette, Sparkles, Hand, Smile } from "lucide-react";
+import { Card, CardContent, CardHeader, CardTitle, CardFooter } from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
+import { Scissors, Palette, Sparkles, Hand, Smile, Crown, Waves, Gem, Wind } from "lucide-react";
+import Link from "next/link";
 
 const services = [
   {
     icon: <Scissors className="h-10 w-10 text-primary" />,
-    title: "Haircuts & Styling",
+    title: "Haircut & Styling",
     description: "Modern cuts, elegant updos, and perfect blowouts to match your style.",
   },
   {
@@ -14,8 +16,28 @@ const services = [
   },
   {
     icon: <Sparkles className="h-10 w-10 text-primary" />,
-    title: "Specialty Styling",
-    description: "Get ready for your big day with our bridal and special occasion styling.",
+    title: "Keratin Treatment",
+    description: "Tame frizz and get smooth, shiny hair with our premium keratin treatments.",
+  },
+  {
+    icon: <Waves className="h-10 w-10 text-primary" />,
+    title: "Hair Spa",
+    description: "A rejuvenating spa experience for your hair to restore its health and shine.",
+  },
+  {
+    icon: <Crown className="h-10 w-10 text-primary" />,
+    title: "Bridal & Party Styling",
+    description: "Get ready for your big day with our bespoke bridal and special occasion styling.",
+  },
+  {
+    icon: <Gem className="h-10 w-10 text-primary" />,
+    title: "Hair Extensions",
+    description: "Add volume and length to your hair with our high-quality, natural-looking extensions.",
+  },
+  {
+    icon: <Wind className="h-10 w-10 text-primary" />,
+    title: "Blow Dry & Straightening",
+    description: "Achieve a sleek, polished look with our professional blow-dry and straightening services.",
   },
   {
     icon: <Hand className="h-10 w-10 text-primary" />,
@@ -43,16 +65,21 @@ const Services = () => {
         </div>
         <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
           {services.map((service, index) => (
-            <Card key={index} className="text-center group hover:shadow-xl transition-shadow duration-300">
+            <Card key={index} className="text-center group hover:shadow-xl transition-shadow duration-300 flex flex-col">
               <CardHeader className="items-center">
                 <div className="mb-4 transition-transform duration-300 group-hover:scale-110">
                   {service.icon}
                 </div>
                 <CardTitle className="font-headline text-2xl">{service.title}</CardTitle>
               </CardHeader>
-              <CardContent>
+              <CardContent className="flex-grow">
                 <p className="text-muted-foreground">{service.description}</p>
               </CardContent>
+              <CardFooter className="justify-center pt-4">
+                <Button asChild>
+                  <Link href="/book-appointment">Book Appointment</Link>
+                </Button>
+              </CardFooter>
             </Card>
           ))}
         </div>

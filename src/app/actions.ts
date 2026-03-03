@@ -3,19 +3,27 @@
 import { z } from "zod";
 import { aiStyleAdvisor, AIStyleAdvisorInput } from "@/ai/flows/ai-style-advisor-flow";
 
-const bookingSchema = z.object({
+const appointmentSchema = z.object({
   name: z.string().min(2, "Name must be at least 2 characters."),
   phone: z.string().min(10, "Please enter a valid phone number."),
   email: z.string().email("Please enter a valid email address."),
   service: z.string().min(1, "Please select a service."),
+  date: z.coerce.date({
+    required_error: "A date for the appointment is required.",
+  }),
+  time: z.string().min(1, "Please select a time slot."),
+  notes: z.string().optional(),
 });
 
-export async function handleBookingRequest(prevState: any, formData: FormData) {
-  const validatedFields = bookingSchema.safeParse({
+export async function handleAppointmentBooking(prevState: any, formData: FormData) {
+  const validatedFields = appointmentSchema.safeParse({
     name: formData.get("name"),
     phone: formData.get("phone"),
     email: formData.get("email"),
     service: formData.get("service"),
+    date: formData.get("date"),
+    time: formData.get("time"),
+    notes: formData.get("notes"),
   });
 
   if (!validatedFields.success) {
@@ -28,11 +36,11 @@ export async function handleBookingRequest(prevState: any, formData: FormData) {
 
   // In a real application, you would process the booking here.
   // For this demo, we'll just log it.
-  console.log("New Booking Request:", validatedFields.data);
+  console.log("New Appointment Booking:", validatedFields.data);
 
   return {
     type: "success" as const,
-    message: "Thank you! Your booking request has been received.",
+    message: "Your appointment request has been sent. We will confirm with you shortly.",
   };
 }
 
