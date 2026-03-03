@@ -129,8 +129,8 @@
     {
       "id": "service-skincare",
       "description": "A customized facial skincare treatment.",
-      "imageUrl": "https://images.unsplash.com/photo-1512290923902-8a9f31c23675?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxza2luY2FyZSUyMHRyZWF0bWVudHxlbnwwfHx8fDE3ODg1OTgzMDd8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "skincare treatment"
+      "imageUrl": "https://images.unsplash.com/photo-1643684391140-c5056cfd3436?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxmYWNpYWx8ZW58MHx8fHwxNzcyNTMxODIwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "facial"
     }
   ]
 }
