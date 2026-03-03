@@ -26,14 +26,14 @@
     },
     {
       "id": "service-spa",
-      "description": "A relaxing hair spa treatment.",
+      "description": "A rejuvenating hair spa treatment.",
       "imageUrl": "https://images.unsplash.com/photo-1621910793397-a7230d3e2a35?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxoYWlyJTIwbWFzayUyMGFwcGxpY2F0aW9ufGVufDB8fHx8fDE3ODg1OTc3NDl8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "hair spa"
     },
     {
       "id": "service-bridal",
       "description": "A stunning bridal hairstyle.",
-      "imageUrl": "https://images.unsplash.com/photo-1595692484323-745f6fe42b0a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxicmlkYWwlMjBoYWlyc3R5bGV8ZW58MHx8fHwxNzg4NTk4MjM3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://images.unsplash.com/photo-1512496015851-a90fb38ba796?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxtYWtldXB8ZW58MHx8fHwxNzcyNTMyMzQ5fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "bridal hairstyle"
     },
     {
@@ -44,7 +44,7 @@
     },
     {
       "id": "service-blowdry",
-      "description": "A perfect, professional blowout.",
+      "description": "Achieve a sleek, polished look with our professional blow-dry and straightening services.",
       "imageUrl": "https://images.unsplash.com/photo-1580618672591-eb180b1a973f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxibG93JTIwZHJ5fGVufDB8fHx8MTc3MjUzMjA2NHww&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "hair blowout"
     },
