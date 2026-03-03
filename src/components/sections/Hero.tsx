@@ -3,9 +3,9 @@ import Link from "next/link";
 
 const Hero = () => {
   return (
-    <section id="home" className="relative h-screen flex items-center justify-center -mt-20 overflow-hidden bg-primary/10">
+    <section id="home" className="relative h-screen flex items-center justify-center -mt-20 overflow-hidden bg-background">
       <div className="relative z-10 text-center px-4">
-        <h1 className="text-4xl font-headline tracking-tight text-accent sm:text-6xl md:text-7xl">
+        <h1 className="text-4xl font-headline font-bold tracking-tight text-accent sm:text-6xl md:text-7xl">
           Pamper Yourself at the Best Salon in Town
         </h1>
         <p className="mt-6 text-lg max-w-2xl mx-auto text-foreground/80">
