@@ -1,50 +1,51 @@
-import { Card, CardContent, CardHeader, CardTitle, CardFooter } from "@/components/ui/card";
-import { Scissors, Palette, Sparkles, Hand, Smile, Crown, Waves, Gem, Wind } from "lucide-react";
+import Image from "next/image";
 import Link from "next/link";
+import { Card, CardTitle } from "@/components/ui/card";
+import { PlaceHolderImages } from "@/lib/placeholder-images";
 
 const services = [
   {
-    icon: <Scissors className="h-10 w-10 text-primary" />,
+    imageId: "gallery-1",
     title: "Haircut & Styling",
     description: "Modern cuts, elegant updos, and perfect blowouts to match your style.",
   },
   {
-    icon: <Palette className="h-10 w-10 text-primary" />,
+    imageId: "gallery-4",
     title: "Hair Coloring",
     description: "From subtle highlights to bold new colors, our experts create stunning results.",
   },
   {
-    icon: <Sparkles className="h-10 w-10 text-primary" />,
+    imageId: "gallery-5",
     title: "Keratin Treatment",
     description: "Tame frizz and get smooth, shiny hair with our premium keratin treatments.",
   },
   {
-    icon: <Waves className="h-10 w-10 text-primary" />,
+    imageId: "gallery-3",
     title: "Hair Spa",
     description: "A rejuvenating spa experience for your hair to restore its health and shine.",
   },
   {
-    icon: <Crown className="h-10 w-10 text-primary" />,
+    imageId: "gallery-7",
     title: "Bridal & Party Styling",
     description: "Get ready for your big day with our bespoke bridal and special occasion styling.",
   },
   {
-    icon: <Gem className="h-10 w-10 text-primary" />,
+    imageId: "gallery-8",
     title: "Hair Extensions",
     description: "Add volume and length to your hair with our high-quality, natural-looking extensions.",
   },
   {
-    icon: <Wind className="h-10 w-10 text-primary" />,
+    imageId: "gallery-6",
     title: "Blow Dry & Straightening",
     description: "Achieve a sleek, polished look with our professional blow-dry and straightening services.",
   },
   {
-    icon: <Hand className="h-10 w-10 text-primary" />,
+    imageId: "gallery-2",
     title: "Nail Care",
     description: "Luxurious manicures and pedicures to leave your hands and feet feeling rejuvenated.",
   },
   {
-    icon: <Smile className="h-10 w-10 text-primary" />,
+    imageId: "gallery-9",
     title: "Facials & Skincare",
     description: "Customized facial treatments to nourish your skin and reveal a radiant glow.",
   },
@@ -63,25 +64,35 @@ const Services = () => {
           </p>
         </div>
         <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
-          {services.map((service, index) => (
-            <Card key={index} className="text-center group hover:shadow-xl transition-shadow duration-300 flex flex-col">
-              <CardHeader className="items-center">
-                <div className="mb-4 transition-transform duration-300 group-hover:scale-110">
-                  {service.icon}
+          {services.map((service, index) => {
+            const image = PlaceHolderImages.find(img => img.id === service.imageId);
+            return (
+              <Card key={index} className="group overflow-hidden rounded-lg shadow-sm hover:shadow-xl transition-shadow duration-300 flex flex-col">
+                {image && (
+                  <div className="relative h-64 w-full overflow-hidden">
+                    <Image
+                      src={image.imageUrl}
+                      alt={service.title}
+                      fill
+                      className="object-cover transition-transform duration-500 group-hover:scale-105"
+                      data-ai-hint={image.imageHint}
+                      sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                    />
+                  </div>
+                )}
+                <div className="p-6 flex flex-col flex-grow">
+                  <CardTitle className="font-headline text-2xl mb-2">{service.title}</CardTitle>
+                  <p className="text-muted-foreground flex-grow mb-6">{service.description}</p>
+                  <div className="mt-auto">
+                    <Link href="/book-appointment" className="relative inline-flex items-center justify-center px-6 py-2 overflow-hidden font-medium transition-all bg-background border border-primary text-primary rounded-md group/button">
+                        <span className="w-48 h-48 rounded rotate-[-40deg] bg-primary absolute bottom-0 left-0 -translate-x-full ease-out duration-500 transition-all translate-y-full mb-9 ml-9 group-hover/button:ml-0 group-hover/button:mb-32 group-hover/button:translate-x-0"></span>
+                        <span className="relative w-full text-center transition-colors duration-300 ease-in-out group-hover/button:text-primary-foreground">Book Appointment</span>
+                    </Link>
+                  </div>
                 </div>
-                <CardTitle className="font-headline text-2xl">{service.title}</CardTitle>
-              </CardHeader>
-              <CardContent className="flex-grow">
-                <p className="text-muted-foreground">{service.description}</p>
-              </CardContent>
-              <CardFooter className="justify-center pt-4">
-                <Link href="/book-appointment" className="relative inline-flex items-center justify-center px-6 py-2 overflow-hidden font-medium transition-all bg-background border border-primary text-primary rounded-md group">
-                    <span className="w-48 h-48 rounded rotate-[-40deg] bg-primary absolute bottom-0 left-0 -translate-x-full ease-out duration-500 transition-all translate-y-full mb-9 ml-9 group-hover:ml-0 group-hover:mb-32 group-hover:translate-x-0"></span>
-                    <span className="relative w-full text-center transition-colors duration-300 ease-in-out group-hover:text-primary-foreground">Book Appointment</span>
-                </Link>
-              </CardFooter>
-            </Card>
-          ))}
+              </Card>
+            );
+          })}
         </div>
       </div>
     </section>
