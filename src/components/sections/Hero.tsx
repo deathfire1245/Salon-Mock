@@ -1,13 +1,9 @@
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
-import Silk from "@/components/ui/Silk";
 
 const Hero = () => {
   return (
-    <section id="home" className="relative h-screen flex items-center justify-center -mt-20 overflow-hidden">
-      <div className="absolute inset-0 w-full h-full">
-        <Silk color="#C7B8D6" />
-      </div>
+    <section id="home" className="relative h-screen flex items-center justify-center -mt-20 overflow-hidden bg-primary/10">
       <div className="relative z-10 text-center px-4">
         <h1 className="text-4xl font-headline tracking-tight text-accent sm:text-6xl md:text-7xl">
           Pamper Yourself at the Best Salon in Town
