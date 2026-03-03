@@ -41,6 +41,24 @@
       "description": "A perfect blowout for a glamorous finish.",
       "imageUrl": "https://images.unsplash.com/photo-1590225479893-6140889a7f39?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxoYWlyJTIwYmxvd291dHxlbnwwfHx8fDE3ODg1OTc3ODZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "perfect blowout"
+    },
+    {
+      "id": "gallery-7",
+      "description": "Stunning bridal hairstyle for a special day.",
+      "imageUrl": "https://images.unsplash.com/photo-1595692484323-745f6fe42b0a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxicmlkYWwlMjBoYWlyc3R5bGV8ZW58MHx8fHwxNzg4NTk4MjM3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "bridal hairstyle"
+    },
+    {
+      "id": "gallery-8",
+      "description": "Elegant updo, perfect for any formal occasion.",
+      "imageUrl": "https://images.unsplash.com/photo-1633327633215-6295b282c208?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxlbGVnYW50JTIwdXBkb3xlbnwwfHx8fDE3ODg1OTgyNzB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "elegant updo"
+    },
+    {
+      "id": "gallery-9",
+      "description": "Relaxing skincare treatment session.",
+      "imageUrl": "https://images.unsplash.com/photo-1512290923902-8a9f31c23675?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxza2luY2FyZSUyMHRyZWF0bWVudHxlbnwwfHx8fDE3ODg1OTgzMDd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "skincare treatment"
     }
   ]
 }
