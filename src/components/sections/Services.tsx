@@ -5,47 +5,47 @@ import { PlaceHolderImages } from "@/lib/placeholder-images";
 
 const services = [
   {
-    imageId: "gallery-1",
+    imageId: "service-haircut",
     title: "Haircut & Styling",
     description: "Modern cuts, elegant updos, and perfect blowouts to match your style.",
   },
   {
-    imageId: "gallery-4",
+    imageId: "service-coloring",
     title: "Hair Coloring",
     description: "From subtle highlights to bold new colors, our experts create stunning results.",
   },
   {
-    imageId: "gallery-5",
+    imageId: "service-keratin",
     title: "Keratin Treatment",
     description: "Tame frizz and get smooth, shiny hair with our premium keratin treatments.",
   },
   {
-    imageId: "gallery-3",
+    imageId: "service-spa",
     title: "Hair Spa",
     description: "A rejuvenating spa experience for your hair to restore its health and shine.",
   },
   {
-    imageId: "gallery-7",
+    imageId: "service-bridal",
     title: "Bridal & Party Styling",
     description: "Get ready for your big day with our bespoke bridal and special occasion styling.",
   },
   {
-    imageId: "gallery-8",
+    imageId: "service-extensions",
     title: "Hair Extensions",
     description: "Add volume and length to your hair with our high-quality, natural-looking extensions.",
   },
   {
-    imageId: "gallery-6",
+    imageId: "service-blowdry",
     title: "Blow Dry & Straightening",
     description: "Achieve a sleek, polished look with our professional blow-dry and straightening services.",
   },
   {
-    imageId: "gallery-2",
+    imageId: "service-nails",
     title: "Nail Care",
     description: "Luxurious manicures and pedicures to leave your hands and feet feeling rejuvenated.",
   },
   {
-    imageId: "gallery-9",
+    imageId: "service-skincare",
     title: "Facials & Skincare",
     description: "Customized facial treatments to nourish your skin and reveal a radiant glow.",
   },

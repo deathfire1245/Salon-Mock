@@ -77,6 +77,60 @@
       "description": "A display of our premium hair care products.",
       "imageUrl": "https://images.unsplash.com/photo-1590305072973-db37f6110034?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzYWxvbiUyMHByb2R1Y3RzJTIwZGlzcGxheXxlbnwwfHx8fDE3ODg1OTg0NzB8MA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "salon products"
+    },
+    {
+      "id": "service-haircut",
+      "description": "Expert stylist crafting a perfect haircut.",
+      "imageUrl": "https://images.unsplash.com/photo-1597907576878-12de9fb6c5e9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxoYWlyJTIwc3R5bGlzdCUyMHNhbG9ufGVufDB8fHx8MTc4ODU5NzUzNHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "hair stylist"
+    },
+    {
+      "id": "service-coloring",
+      "description": "Vibrant and professional hair coloring in progress.",
+      "imageUrl": "https://images.unsplash.com/photo-1502450379410-a20b224151b7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxoYWlyJTIwZHllJTIwcHJvY2Vzc3xlbnwwfHx8fDE3ODg1OTc3MDd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "hair coloring"
+    },
+    {
+      "id": "service-keratin",
+      "description": "A head of smooth, shiny hair after a keratin treatment.",
+      "imageUrl": "https://images.unsplash.com/photo-1590225479893-6140889a7f39?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxoYWlyJTIwYmxvd291dHxlbnwwfHx8fDE3ODg1OTc3ODZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "smooth hair"
+    },
+    {
+      "id": "service-spa",
+      "description": "A relaxing hair spa treatment.",
+      "imageUrl": "https://images.unsplash.com/photo-1621910793397-a7230d3e2a35?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxoYWlyJTIwbWFzayUyMGFwcGxpY2F0aW9ufGVufDB8fHx8fDE3ODg1OTc3NDl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "hair spa"
+    },
+    {
+      "id": "service-bridal",
+      "description": "A stunning bridal hairstyle.",
+      "imageUrl": "https://images.unsplash.com/photo-1595692484323-745f6fe42b0a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxicmlkYWwlMjBoYWlyc3R5bGV8ZW58MHx8fHwxNzg4NTk4MjM3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "bridal hairstyle"
+    },
+    {
+      "id": "service-extensions",
+      "description": "Long, flowing hair extensions.",
+      "imageUrl": "https://images.unsplash.com/photo-1616013919816-72419406540c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxoYWlyJTIwZXh0ZW5zaW9uc3xlbnwwfHx8fDE3ODg3NTQwMDV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "hair extensions"
+    },
+    {
+      "id": "service-blowdry",
+      "description": "A perfect, professional blowout.",
+      "imageUrl": "https://images.unsplash.com/photo-1590225479893-6140889a7f39?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxoYWlyJTIwYmxvd291dHxlbnwwfHx8fDE3ODg1OTc3ODZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "hair blowout"
+    },
+    {
+      "id": "service-nails",
+      "description": "A luxurious manicure service.",
+      "imageUrl": "https://images.unsplash.com/photo-1604654894610-df62313d1013?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBtYW5pY3VyZXxlbnwwfHx8fDE3ODg1OTc2MTB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "nail care"
+    },
+    {
+      "id": "service-skincare",
+      "description": "A customized facial skincare treatment.",
+      "imageUrl": "https://images.unsplash.com/photo-1512290923902-8a9f31c23675?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxza2luY2FyZSUyMHRyZWF0bWVudHxlbnwwfHx8fDE3ODg1OTgzMDd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "skincare treatment"
     }
   ]
 }
